@@ -21,7 +21,7 @@ main section {
     background-color: #F5DE73;
 }
 body {
-    background-color: #F5DE73;
+    background-color: whitesmoke;
 }
 header {
     background-color: #7BC4D5;
@@ -31,7 +31,6 @@ nav a:hover {
     color: white;
 }
 .book, .join {
-    background-color: #F5DE73;
     color:#144365;
     text-decoration: none;
 }
