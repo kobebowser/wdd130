@@ -3,6 +3,7 @@
 body {
     margin: 0 auto;
     background-color: whitesmoke;
+    max-width: 1600px;
 }
 nav {
     display: flex;
@@ -74,8 +75,10 @@ header {
     grid-column: 2/3;
     grid-row: 3/4;
     font-family: Roboto, sans-serif, serif;
-    padding: 0 30px;
+    padding: 0 70px;
     color: #222E69;
+    line-height: 2em;
+    font-size: 1.2em;
 }
 footer {
     background-color: #A42212;
