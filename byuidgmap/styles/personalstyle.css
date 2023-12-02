@@ -98,3 +98,104 @@ footer a:hover {
     background-color: #a6a6a6;
     color: #A42212;
 }
+.holes1to5-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.holes1to5-title {
+    grid-column: 1/3;
+    font-family: Anton, sans-serif, serif;
+    text-align: center;
+    color: #222E69;
+    font-size: 2.5em;
+}
+.holeone {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 60%;
+    margin: 0 auto;
+    border: 5px solid #a6a6a6;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.holetwo {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 60%;
+    margin: 0 auto;
+    border: 5px solid #a6a6a6;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.holeonetext {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    color: #222E69;
+    text-align: center;
+    padding: 0 25%;
+}
+.holetwotext {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    color: #222E69;
+    text-align: center;
+    padding: 0 25%;
+}
+.holetext {
+    font-family: Roboto, sans-serif, serif;
+    color: #222E69;
+    margin-bottom: 60px;
+}
+.holetitle {
+    font-family: Anton, sans-serif, serif;
+    color: #222E69;
+}
+.holethree {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    width: 60%;
+    margin: 0 auto;
+    border: 5px solid #a6a6a6;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.holefour {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    width: 60%;
+    margin: 0 auto;
+    border: 5px solid #a6a6a6;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.holethreetext {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    color: #222E69;
+    text-align: center;
+    padding: 0 25%;
+}
+.holefourtext {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    color: #222E69;
+    text-align: center;
+    padding: 0 25%;
+}
+.holefive {
+    grid-column: 1/3;
+    grid-row: 6/7;
+    width: 30%;
+    margin: 0 auto;
+    border: 5px solid #a6a6a6;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.holefivetext {
+    grid-column: 1/3;
+    grid-row: 7/8;
+    color: #222E69;
+    text-align: center;
+    padding: 0 25%;
+}
